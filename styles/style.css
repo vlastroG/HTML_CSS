@@ -1,5 +1,38 @@
 * {
+    margin: 0;
+    padding: 0;
+}
+
+* {
     font-family: sans-serif;
+}
+
+
+h1 {
+    width: 510px;
+}
+
+.description {
+    width: 425px;
+}
+
+.our__products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    width: 359px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
 }
 
 .paragraph {
@@ -51,4 +84,22 @@
 
 .map {
     width: 100%;
+}
+
+.footer__last__attraction {
+    width: 495px;
+}
+
+.footer__header {
+    width: 340px;
+}
+
+.footer__contacts__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__form {
+    display: flex;
+    justify-content: space-between;
 }
