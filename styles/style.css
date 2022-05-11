@@ -32,7 +32,7 @@ h1 {
 
 .menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .paragraph {
@@ -101,5 +101,4 @@ h1 {
 
 .contacts__form {
     display: flex;
-    justify-content: space-between;
 }
