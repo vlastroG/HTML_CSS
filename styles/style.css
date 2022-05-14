@@ -243,17 +243,76 @@ h1 {
     background: #316099;
 }
 
+.footer_text {
+    color: #FFFFFF;
+    padding-bottom: 96px;
+}
+
+.footer__privacy_text {
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.footer__privacy {
+    padding-bottom: 64px;
+    padding-top: 64px;
+}
+
 .footer__last__attraction {
+    padding-top: 91px;
     width: 495px;
 }
 
 .footer__header {
     width: 340px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+
+.footer__contacts {
+    padding-top: 64px;
 }
 
 .footer__contacts__list {
     display: flex;
     justify-content: space-between;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer__last {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    padding: 15px 80px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.line {
+    width: 100%;
+    opacity: 0.4;
+    color: #FFFFFF;
+}
+
+.footer__button_box {
+    align-self: center;
 }
 
 .contacts__form {
