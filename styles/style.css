@@ -132,7 +132,6 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin-top: 32px;
-    padding-bottom: 112px;
 }
 
 .project__item {
@@ -241,6 +240,7 @@ h1 {
 
 .footer {
     background: #316099;
+    margin-top: 112px;
 }
 
 .footer_text {
@@ -285,6 +285,31 @@ h1 {
     line-height: 26px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
+}
+
+.footer__list_item {
+    flex-grow: 1;
+    flex-basis: 33.3333%;
+    margin-right: 32px;
+    display: flex;
+}
+
+.footer__list_item:first-child::before {
+    content: 'A.';
+    display: block;
+    margin-right: 16px;
+}
+
+.footer__list_item:nth-child(2)::before {
+    content: 'T.';
+    display: block;
+    margin-right: 16px;
+}
+
+.footer__list_item:nth-child(3)::before {
+    content: 'E.';
+    display: block;
+    margin-right: 16px;
 }
 
 .footer__last {
