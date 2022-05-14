@@ -30,9 +30,70 @@ h1 {
     margin: 0 auto;
 }
 
+.top {
+    height: 768px;
+    background: linear-gradient(0deg,
+            #EBF3FB 8.84%,
+            rgba(152, 195, 232, 0) 31.12%);
+}
+
+.top__info {
+    padding-top: 115px;
+    flex-grow: 1;
+    background-image: url(../img/IndexPage/illustration.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.top__heading {
+    width: 510px;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 32px;
+}
+
+.top__text {
+    width: 425px;
+}
+
+.top__box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.top__button {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+}
+
 .menu {
+    padding-top: 42px;
     display: flex;
     justify-content: space-between;
+    list-style-type: none;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    text-align: Left;
 }
 
 .paragraph {
