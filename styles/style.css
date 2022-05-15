@@ -7,7 +7,6 @@
     font-family: sans-serif;
 }
 
-
 h1 {
     width: 510px;
 }
@@ -132,7 +131,9 @@ h1 {
 }
 
 
-.project {}
+.project {
+    margin-bottom: 112px;
+}
 
 .project__img {
     width: 100%;
@@ -250,7 +251,6 @@ h1 {
 
 .footer {
     background: #316099;
-    margin-top: 112px;
 }
 
 .footer_text {
@@ -270,11 +270,11 @@ h1 {
 
 .footer__last__attraction {
     padding-top: 91px;
-    width: 495px;
+    max-width: 495px;
 }
 
 .footer__header {
-    width: 340px;
+    max-width: 340px;
     font-weight: 400;
     font-size: 36px;
     line-height: 46px;
@@ -354,7 +354,7 @@ h1 {
     display: flex;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width:668px) {
     .container {
         padding-left: 32px;
         padding-right: 32px;
@@ -368,10 +368,61 @@ h1 {
     .our__products {
         flex-direction: column;
         align-items: center;
+        padding-bottom: 127px;
     }
 
     .product {
         margin-bottom: 32px;
+    }
+
+    .project {
+        margin-bottom: 109px;
+    }
+
+    .footer__last__attraction {
+        padding-top: 47px;
+        width: 336px;
+    }
+
+    .footer__text {
+        padding-bottom: 64px;
+    }
+
+    .footer__button {
+        padding: 3px 35px;
+    }
+
+    .footer__list_item {
+        margin-right: 0;
+        padding-bottom: 25px;
+    }
+
+    .footer__list_item:first-child::before {
+        content: '1.';
+        margin-right: 45px;
+    }
+
+    .footer__list_item:nth-child(2)::before {
+        content: '2.';
+        margin-right: 45px;
+    }
+
+    .footer__list_item:nth-child(3)::before {
+        content: '3.';
+        margin-right: 45px;
+    }
+
+    .footer>.container {
+        padding-left: 124px;
+        padding-right: 124px;
+    }
+
+    .footer__contacts__list {
+        flex-direction: column;
+    }
+
+    .footer__privacy {
+        padding-top: 39px;
     }
 }
 
@@ -436,10 +487,14 @@ h1 {
 
     .our__products {
         padding-top: 32px;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 64px;
     }
 
     .product {
         width: 100%;
+        margin-bottom: 32px;
     }
 
     .text_project {
@@ -469,5 +524,80 @@ h1 {
     .project__item_margin {
         margin-right: 0;
         margin-bottom: 16px;
+    }
+
+    .project {
+        margin-bottom: 64px;
+    }
+
+    .footer__last {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer__last__attraction {
+        justify-content: center;
+        padding-top: 16px;
+    }
+
+    .footer__header {
+        text-align: center;
+        margin-right: 50px;
+        margin-left: 50px;
+        font-size: 24px;
+        line-height: 28px;
+        align-self: center;
+    }
+
+    .footer_text {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .footer__button {
+        padding: 5px 25px;
+        margin-bottom: 40px;
+    }
+
+    .footer>.container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .footer__contacts {
+        padding-top: 32px;
+    }
+
+    .footer__contacts__list {
+        flex-direction: column;
+    }
+
+    .footer__list_item {
+        margin-right: 0;
+        padding-bottom: 18px;
+    }
+
+    .footer__list_item:first-child::before {
+        content: '1.';
+        margin-right: 25px;
+    }
+
+    .footer__list_item:nth-child(2)::before {
+        content: '2.';
+        margin-right: 25px;
+    }
+
+    .footer__list_item:nth-child(3)::before {
+        content: '3.';
+        margin-right: 25px;
+    }
+
+    .footer__privacy {
+        padding-top: 7px;
+        padding-bottom: 32px;
+    }
+
+    .footer__privacy_text {
+        text-align: center;
     }
 }
