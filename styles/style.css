@@ -362,7 +362,16 @@ h1 {
 
     .top__info {
         background-size: 44%;
-        background-position: right 280px;
+        background-position: right 240px;
+    }
+
+    .our__products {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        margin-bottom: 32px;
     }
 }
 
@@ -371,7 +380,12 @@ h1 {
         padding-top: 24px;
     }
 
-    .top {
+    .container {
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    .top__box {
         min-height: 376px;
         padding-bottom: 41px;
         box-sizing: border-box;
@@ -405,5 +419,55 @@ h1 {
         line-height: 26px;
         padding: 0 8px;
         margin-top: 32px;
+    }
+
+    .top {
+        min-height: 308px;
+    }
+
+    .heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .what-we-do {
+        padding-top: 48px;
+    }
+
+    .our__products {
+        padding-top: 32px;
+    }
+
+    .product {
+        width: 100%;
+    }
+
+    .text_project {
+        width: 100%;
+        margin-bottom: 82px;
+    }
+
+    .project__text {
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        right: 16px;
+    }
+
+    .project__text__app {
+        left: 16px;
+        top: 16px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .project__parent {
+        flex-direction: column;
+        margin-top: 16px;
+    }
+
+    .project__item_margin {
+        margin-right: 0;
+        margin-bottom: 16px;
     }
 }
