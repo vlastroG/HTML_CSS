@@ -12,6 +12,16 @@ h1 {
     width: 510px;
 }
 
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top__all {
+    flex-grow: 1;
+}
+
 .description {
     width: 425px;
 }
